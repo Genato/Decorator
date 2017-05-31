@@ -1,8 +1,13 @@
-bin\Debug
-obj\
+Decorator/bin/Debug/
+Decorator/obj/Debug/Decorator.csproj.FileListAbsolute.txt
+Decorator/obj/Debug/
 Properties/
 *.config
 *.txt
 *.exe
 *.suo
 *.sln
+*.pdb
+*.cache
+*.resources
+*.vs
