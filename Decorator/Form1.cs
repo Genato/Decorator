@@ -95,9 +95,6 @@ namespace Decorator
             }
 
             NapraviObičuKuću();
-
-            //graphics.Dispose();
-            //myBrush.Dispose();
         }
 
         public void NapraviObičuKuću()
@@ -110,6 +107,8 @@ namespace Decorator
             graphics.FillRectangle(new System.Drawing.SolidBrush(System.Drawing.Color.OrangeRed), new System.Drawing.Rectangle(200, 200, 100, 100));
             graphics.FillRectangle(new System.Drawing.SolidBrush(System.Drawing.Color.Khaki), new System.Drawing.Rectangle(215, 215, 30, 30));
             graphics.FillRectangle(new System.Drawing.SolidBrush(System.Drawing.Color.Black), new System.Drawing.Rectangle(255, 255, 30, 45));
+
+            graphics.Dispose();
         }
 
         public void DodajDvorište()
@@ -123,6 +122,8 @@ namespace Decorator
             graphics.FillRectangle(new System.Drawing.SolidBrush(System.Drawing.Color.SaddleBrown), new System.Drawing.Rectangle(120, 70, 600, 50));
             graphics.FillRectangle(new System.Drawing.SolidBrush(System.Drawing.Color.SaddleBrown), new System.Drawing.Rectangle(120, 350, 600, 50));
             graphics.FillRectangle(new System.Drawing.SolidBrush(System.Drawing.Color.LawnGreen), new System.Drawing.Rectangle(120, 120, 600, 230));
+
+            graphics.Dispose();
         }
 
         public void DodajBazen()
@@ -132,6 +133,9 @@ namespace Decorator
 
             graphics.DrawRectangle(System.Drawing.Pens.Black, new System.Drawing.Rectangle(350, 200, 120, 70));
             graphics.FillRectangle(myBrush, new System.Drawing.Rectangle(350, 200, 120, 70));
+
+            graphics.Dispose();
+            myBrush.Dispose();
         }
 
         public void DodajGaražu()
@@ -144,6 +148,8 @@ namespace Decorator
             graphics.DrawRectangle(System.Drawing.Pens.Black, new System.Drawing.Rectangle(525, 240, 50, 30));
             graphics.FillRectangle(new System.Drawing.SolidBrush(System.Drawing.Color.OrangeRed), new System.Drawing.Rectangle(500, 200, 100, 70));
             graphics.FillRectangle(new System.Drawing.SolidBrush(System.Drawing.Color.Khaki), new System.Drawing.Rectangle(525, 240, 50, 30));
+
+            graphics.Dispose();
         }
 
         public void ClearDrawingContext(Form1 form1)
@@ -152,6 +158,9 @@ namespace Decorator
             System.Drawing.SolidBrush myBrush = new System.Drawing.SolidBrush(System.Drawing.Color.White);
             
             graphics.FillRectangle(myBrush, form1.ClientRectangle);
+
+            graphics.Dispose();
+            myBrush.Dispose();
         }
 
         private void button2_Click(object sender, EventArgs e)
