@@ -1,9 +1,0 @@
-C:\WWGENATO\VSITE\OOM\Prezentacija - Decorator\Decorator\Decorator\bin\Debug\Decorator.exe.config
-C:\WWGENATO\VSITE\OOM\Prezentacija - Decorator\Decorator\Decorator\bin\Debug\Decorator.exe
-C:\WWGENATO\VSITE\OOM\Prezentacija - Decorator\Decorator\Decorator\bin\Debug\Decorator.pdb
-C:\WWGENATO\VSITE\OOM\Prezentacija - Decorator\Decorator\Decorator\obj\Debug\Decorator.csprojResolveAssemblyReference.cache
-C:\WWGENATO\VSITE\OOM\Prezentacija - Decorator\Decorator\Decorator\obj\Debug\Decorator.Form1.resources
-C:\WWGENATO\VSITE\OOM\Prezentacija - Decorator\Decorator\Decorator\obj\Debug\Decorator.Properties.Resources.resources
-C:\WWGENATO\VSITE\OOM\Prezentacija - Decorator\Decorator\Decorator\obj\Debug\Decorator.csproj.GenerateResource.Cache
-C:\WWGENATO\VSITE\OOM\Prezentacija - Decorator\Decorator\Decorator\obj\Debug\Decorator.exe
-C:\WWGENATO\VSITE\OOM\Prezentacija - Decorator\Decorator\Decorator\obj\Debug\Decorator.pdb
